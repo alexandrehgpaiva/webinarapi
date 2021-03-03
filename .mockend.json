@@ -1,13 +1,12 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "Usuario": {
+    "Nome": "string",
+    "Data de Nascimento": "date",
+    "Cliente VIP": "boolean",
+    "Pedidos": "Pedido[]"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Pedido":{
+	  "Numero": "int",
+	  "Data": "date"
   }
 }
